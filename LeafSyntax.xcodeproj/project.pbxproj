@@ -14,12 +14,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5394FCDC28C17EE700D2CA21 /* SyntaxHighlighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyntaxHighlighting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5394FCDC28C17EE700D2CA21 /* LeafSyntax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeafSyntax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5394FCDF28C17EE700D2CA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5394FCE128C17EE700D2CA21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5394FCE328C17EEA00D2CA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5394FCE628C17EEA00D2CA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5394FCE828C17EEA00D2CA21 /* SyntaxHighlighting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SyntaxHighlighting.entitlements; sourceTree = "<group>"; };
+		5394FCEE28C17F1100D2CA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		539DDE0128C18093009D6E80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +38,8 @@
 		5394FCD328C17EE700D2CA21 = {
 			isa = PBXGroup;
 			children = (
-				5394FCDE28C17EE700D2CA21 /* SyntaxHighlighting */,
+				539DDE0128C18093009D6E80 /* README.md */,
+				5394FCDE28C17EE700D2CA21 /* LeafSyntax */,
 				5394FCDD28C17EE700D2CA21 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +47,30 @@
 		5394FCDD28C17EE700D2CA21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5394FCDC28C17EE700D2CA21 /* SyntaxHighlighting.app */,
+				5394FCDC28C17EE700D2CA21 /* LeafSyntax.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5394FCDE28C17EE700D2CA21 /* SyntaxHighlighting */ = {
+		5394FCDE28C17EE700D2CA21 /* LeafSyntax */ = {
 			isa = PBXGroup;
 			children = (
+				5394FCEE28C17F1100D2CA21 /* Info.plist */,
 				5394FCDF28C17EE700D2CA21 /* AppDelegate.swift */,
 				5394FCE128C17EE700D2CA21 /* ViewController.swift */,
 				5394FCE328C17EEA00D2CA21 /* Assets.xcassets */,
 				5394FCE528C17EEA00D2CA21 /* Main.storyboard */,
 				5394FCE828C17EEA00D2CA21 /* SyntaxHighlighting.entitlements */,
 			);
-			path = SyntaxHighlighting;
+			path = LeafSyntax;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5394FCDB28C17EE700D2CA21 /* SyntaxHighlighting */ = {
+		5394FCDB28C17EE700D2CA21 /* LeafSyntax */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5394FCEB28C17EEA00D2CA21 /* Build configuration list for PBXNativeTarget "SyntaxHighlighting" */;
+			buildConfigurationList = 5394FCEB28C17EEA00D2CA21 /* Build configuration list for PBXNativeTarget "LeafSyntax" */;
 			buildPhases = (
 				5394FCD828C17EE700D2CA21 /* Sources */,
 				5394FCD928C17EE700D2CA21 /* Frameworks */,
@@ -76,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = SyntaxHighlighting;
+			name = LeafSyntax;
 			productName = SyntaxHighlighting;
-			productReference = 5394FCDC28C17EE700D2CA21 /* SyntaxHighlighting.app */;
+			productReference = 5394FCDC28C17EE700D2CA21 /* LeafSyntax.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5394FCD728C17EE700D2CA21 /* Build configuration list for PBXProject "SyntaxHighlighting" */;
+			buildConfigurationList = 5394FCD728C17EE700D2CA21 /* Build configuration list for PBXProject "LeafSyntax" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5394FCDB28C17EE700D2CA21 /* SyntaxHighlighting */,
+				5394FCDB28C17EE700D2CA21 /* LeafSyntax */,
 			);
 		};
 /* End PBXProject section */
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = M2KG87RZWM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SyntaxHighlighting/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -302,6 +307,7 @@
 				DEVELOPMENT_TEAM = M2KG87RZWM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SyntaxHighlighting/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -320,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5394FCD728C17EE700D2CA21 /* Build configuration list for PBXProject "SyntaxHighlighting" */ = {
+		5394FCD728C17EE700D2CA21 /* Build configuration list for PBXProject "LeafSyntax" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5394FCE928C17EEA00D2CA21 /* Debug */,
@@ -329,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5394FCEB28C17EEA00D2CA21 /* Build configuration list for PBXNativeTarget "SyntaxHighlighting" */ = {
+		5394FCEB28C17EEA00D2CA21 /* Build configuration list for PBXNativeTarget "LeafSyntax" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5394FCEC28C17EEA00D2CA21 /* Debug */,
